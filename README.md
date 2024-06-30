@@ -35,7 +35,9 @@ This repository contains the code for the **Brainlox Chatbot**, an interactive a
 ## Configuration
 
 Course URLs: Modify the course_urls list in the app.py file to include the URLs of the courses you want to query.
+
 Hugging Face API Key: Set your Hugging Face API key in the key variable within the app.py file.
+
 Model Selection: The application uses the zephyr-7b-alpha model from Hugging Face by default, but you can change it by modifying the repo_id variable.
 
 ## Usage
