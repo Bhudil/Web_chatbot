@@ -37,7 +37,7 @@ embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 vectorstore = FAISS.from_documents(docs, embeddings)
 
 repo_id = "HuggingFaceH4/zephyr-7b-alpha"
-key = "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"
+key = "YOUR_HUGGINGFACE_API_KEY"
 llm2 = HuggingFaceHub(huggingfacehub_api_token=key,
                       repo_id=repo_id,
                       model_kwargs={"temperature": 0.4, "max_length": 512})
